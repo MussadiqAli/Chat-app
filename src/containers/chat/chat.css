@@ -1,0 +1,70 @@
+.btn{
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    padding: 4px 7px;
+    margin: 12px 0;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 10px;
+    border: 2px solid darkslateblue;
+    font-family: 'JetBrains Mono', monospace;
+}
+.btn:hover{
+    background: white;
+    color: darkslateblue;
+    opacity: 1;
+}
+.chatinput{
+    outline: none;
+    color: black;
+    padding: 4px 7px;
+    margin: 12px 0;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 10px;
+    border: 2px solid darkslateblue;
+    font-family: 'JetBrains Mono', monospace;
+    width: 70%;
+}
+.userdata{
+    display: flex;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+    
+}
+.avatar{
+border-radius: 50%;
+height: 60px;
+width: 60px;
+
+}
+.username{
+    color:aliceblue
+}
+.profile-avatar{
+    border-radius: 50%;
+}
+.chatusers{
+    background: white;
+    min-height: 80vh;
+    width: 20%;
+    background: linear-gradient(to right bottom,
+     rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3));
+    border-top-left-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    overflow: scroll;
+}
+.Chatsection{
+    background: linear-gradient(to right top,#65dfc9, #6cdbeb);
+    z-index: 2;
+    width: 70%;
+    min-height: 80vh;
+    max-height: 80vh;
+    overflow: scroll;
+    backdrop-filter: blur(2rem);
+}

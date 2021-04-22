@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   height: 660px;
+    background-image:linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4) ,rgba(0,0,0,0.4)),url("../../assets/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'JetBrains Mono', monospace;
+}
+.container{
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.container h1{
+    width: 50%;
+    font-size: 35px;
+    padding: 13px 0;
+    margin-bottom: 15px;
+    display: inline-block;
+    border-bottom: 4px solid darkslateblue;
+    font-family: 'JetBrains Mono', monospace;
+}
+.btn{
+    background: none;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    padding: 10px 21px;
+    margin: 12px 0;
+    font-weight: bold;
+    font-size: 21px;
+    border-radius: 10px;
+    border: 2px solid darkslateblue;
+    font-family: 'JetBrains Mono', monospace;
+}
+.btn:hover{
+    background: white;
+    color: darkslateblue;
+    opacity: 1;
+}
